@@ -1,0 +1,414 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css">
+	<link href="mediacss.css" rel="stylesheet" type="text/css">
+	<script src="main.js"></script>
+</head>
+<body>
+	<header class="header-mobile">
+		<div class="div-1">
+			<a href=""><img src="png\ug-mobile.png" class="header-logo"></a>
+			<nav class="nav-1">
+				<div class="ip1"><img src="svg\map-header-mobile.svg">Крым, Симферополь ул.<br>Киевская, 189</div>
+				<div class="ip3"><img src="svg\ion_time-outline-mobile.svg">АШАН с 7:00 до 23:00<br>ТЦ с 10:00 до 22:00</div>
+				<button onclick="mainnavfunction()" class="menu-burger"><img src="svg\menu-burger.svg"></button>
+			</nav>
+		</div>
+		<nav id="nav2" class="nav-2">
+			<section onclick="myFunction()" class="nav-2-element">
+				<div class="menu-drop-button">
+					<button class="drop-button">О ТЦ</button>
+					<img src="menu-arrow.svg" class="nav-2-element-img">
+				</div>
+			</section>
+			<div id="menu-under-list" class="drop-button-content">
+				<a href="">О торговом центре</a>
+				<a href="">Схема Торгового центра</a>
+				<a style="border-bottom: 0.5px solid rgba(166, 217, 43, 1);" href="">Контакты</a>
+			</div>
+			<section class="nav-2-element"><a href="">НОВОСТИ</a></section>
+			<section class="nav-2-element"><a href="">ГАЛЕРЕЯ</a></section>
+			<section class="nav-2-element"><a href="">БРЕНДЫ</a></section>
+			<section onclick="myFunction2()" class="nav-2-element">
+				<div class="menu-drop-button">
+					<button class="drop-button">АКЦИИ</button>
+					<img src="menu-arrow.svg" class="nav-2-element-img">
+				</div>
+			</section>
+			<div id="menu-under-list-2" class="drop-button-content-2">
+				<a href="">Акции</a>
+				<a href="">Скидки</a>
+				<a href="" style="border-bottom: 0.5px solid rgba(166, 217, 43, 1);">Программы лояльности</a>
+			</div>
+			<section onclick="myFunction3()" class="nav-2-element">
+				<div class="menu-drop-button">
+					<button class="drop-button">ДОСУГ</button>
+					<img src="menu-arrow.svg" class="nav-2-element-img">
+				</div>
+			</section>
+			<div id="menu-under-list-3" class="drop-button-content-3">
+				<a href="">Кафе</a>
+				<a href="" style="border-bottom: 0.5px solid rgba(166, 217, 43, 1);">Развлечения</a>
+			</div>
+		</nav>
+	</header>
+	<header class="header-pk">
+		<div class="div-1">
+			<a href=""><img src="png\ug.png" class="header-logo header-logo-main"></a>
+			<div class="navigation">
+				<nav class="nav-2-scroll">
+			    	<ul>
+			    	    <li><a href="#">О ТЦ<div class="nav-2-element-img"></div></a>
+			    	    	<ul>
+			     	           <li><a class="a-drop" href="#">О торговом центре</a></li>
+			     	           <li><a class="a-drop" href="#">Схема Торгового центра</a></li>
+			     	           <li><a class="a-drop" href="#">Контакты</a></li>
+			     	       </ul>
+			     	   </li>
+			    	    <li><a href="#">НОВОСТИ</a></li>
+			    	    <li><a href="#">ГАЛЕРЕЯ</a></li>
+			    	    <li><a href="#">БРЕНДЫ</a></li>
+			    	    <li><a href="#">АКЦИИ<div class="nav-2-element-img"></div></a>
+			    	    	<ul>
+			    	            <li><a class="a-drop" href="#">Акции</a></li>
+			    	            <li><a class="a-drop" href="#">Скидки</a></li>
+			    	            <li><a class="a-drop" href="#">Программы лояльности</a></li>
+			    	        </ul>
+			    	    </li>
+			       		<li><a href="#">ДОСУГ<div class="nav-2-element-img"></div></a>
+			        		<ul>
+			        	        <li><a class="a-drop" href="#">Кафе</a></li>
+			        	        <li><a class="a-drop" href="#">Развлечения</a></li>
+			        	    </ul>
+			        	</li>
+			    	</ul>
+				</nav>
+				<a class="button10"><img src="svg\kino.svg">КИНОТЕАТР</a>
+				<div class="fivk-header"><a href="google.com"><img src="svg\vk.svg"></a></div>
+			</div>
+		</div>
+				<nav class="nav-1">
+					<div class="ip1"><img src="svg\map-header.svg">Крым, Симферополь <br>ул.Киевская, 189</div>
+					<div class="ip2"><img src="svg\phone.svg">По административным вопросам:+7978 938 13 22<br>По вопросам аренды:+7978 901 32 63</div>
+					<div class="ip3"><img src="svg\ion_time-outline.svg">АШАН с 7:00 до 23:00<br>ТЦ с 10:00 до 22:00</div>
+					<button onclick="mainnavfunction()" class="menu-burger"><img src="svg\menu-burger.svg"></button>
+				</nav>
+	</header>
+	<div id="header-scroll" class="header-scroll">
+		<div class="div-2">
+			<a href=""><img src="png\ug-small.png" class="header-logo"></a>
+			<div class="navigation-scroll">
+				<nav class="nav-2-scroll">
+			    <ul>
+			        <li><a href="#">О ТЦ<div class="nav-2-element-img"></div></a>
+			        	<ul>
+			                <li><a class="a-drop" href="#">О торговом центре</a></li>
+			                <li><a class="a-drop" href="#">Схема Торгового центра</a></li>
+			                <li><a class="a-drop" href="#">Контакты</a></li>
+			            </ul>
+			        </li>
+			        <li><a href="#">НОВОСТИ</a></li>
+			        <li><a href="#">ГАЛЕРЕЯ</a></li>
+			        <li><a href="#">БРЕНДЫ</a></li>
+			        <li><a href="#">АКЦИИ<div class="nav-2-element-img"></div></a>
+			        	<ul>
+			                <li><a class="a-drop" href="#">Акции</a></li>
+			                <li><a class="a-drop" href="#">Скидки</a></li>
+			                <li><a class="a-drop" href="#">Программы лояльности</a></li>
+			            </ul>
+			        </li>
+			        <li><a href="#">ДОСУГ<div class="nav-2-element-img"></div></a>
+			        	<ul>
+			                <li><a class="a-drop" href="#">Кафе</a></li>
+			                <li><a class="a-drop" href="#">Развлечения</a></li>
+			            </ul>
+			        </li>
+			    </ul>
+				</nav>
+				<a class="button10"><img src="svg\kino.svg">КИНОТЕАТР</a>
+				<div class="fivk-header"><a href="google.com"><img src="svg\vk.svg"></a></div>
+			</div>
+		</div>
+
+	</div>
+	<div style="" class="polosa1"></div>
+	<center><img src="png\gnv.png" class="img3"></center>
+	<center><img src="png\gnvm.png" class="img3m"></center>
+	<div class="polosa1"></div>
+	<div class="block-otrc">
+		<div class="otrc">
+			<img class="otrc-img" src="png\OTRC.png">
+			<div class="otrc-elements">
+				<div class="o-elem-p-icons">
+					<div class="o-elem-p">
+						<h2>О Торговом центре</h2>
+						<p class="o-p">ТЦ «Южная Галерея» – стильный и современный торговый
+центр в Симферополе, где шопинг отлично сочетается 
+с интересными развлечениями и приятным досугом.
+Удобный паркинг, модные магазины, множество уютных 
+кафе и ресторанов, детский развлекательный центр - 
+несомненные преимущества ТЦ «Южная Галерея»!
+						</p>
+					</div>
+					<div class="o-icons">
+						<div class="icons-group">
+							<div class="o-icon">
+								<img src="svg\iS.svg" class="o-icon-img-iS">
+								<p class="o-elem-icon-h">Площадь</p>
+								<p class="o-elem-icon-p">GBA:41330 кв.м<br>GLA:33415 кв.м</p>
+							</div>
+							<div class="o-icon">
+								<img src="svg\iAushan.svg" class="o-icon-img-iAushan">
+								<p class="o-elem-icon-h">Ашан</p>
+								<p class="o-elem-icon-p">единственный<br> гипермаркет в<br> Крыму</p>
+							</div>
+						</div>
+						<div class="icons-group">
+							<div class="o-icon">
+								<img src="svg\iP.svg" class="o-icon-img-iP">
+								<p class="o-elem-icon-h">Паркинг</p>
+								<p class="o-elem-icon-p">1460 мест</p>
+							</div>
+							<div class="o-icon">
+								<img src="svg\iBrands.svg" class="o-icon-img-iBrands">
+								<p class="o-elem-icon-h">Бренды</p>
+								<p class="o-elem-icon-p">более 100+<br> брендов</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="otrc-buttons">
+					<a href="" class="button7">Подробнее</a>
+					<a href="" class="button8">Схема торгового центра</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="brands-mobile">
+		<h2>Бренды<div class="polosa3"></div></h2>
+		<div class="group-brands">
+			<div class="group-brands-1">
+				<img src="brands\lcwaikiki.svg" class="icon-brand">
+				<img src="brands\kari.svg" class="icon-brand">
+				<img src="brands\gloriajeans.svg" class="icon-brand hidden-icon">
+				<img src="brands\dentskykrim.svg" class="icon-brand hidden-icon">
+			</div>
+			<div class="group-brands-2">
+				<img src="brands\dns.svg" class="icon-brand">
+				<img src="brands\aschan.svg" class="icon-brand">
+				<img src="brands\nysp.svg" class="hidden-icon icon-brand">
+				<img src="brands\redsoloto.svg" class="hidden-icon icon-brand">
+			</div>
+			<div class="group-brands-3">
+				<img src="brands\zenden.svg" class="icon-brand ">
+				<img src="brands\chitaigorod.svg" class="icon-brand ">
+				<img src="brands\letual.svg" class="hidden-icon icon-brand">
+				<img src="brands\garini.svg" class="hidden-icon icon-brand">
+			</div>
+		</div>
+		<a href="" class="button4">Все бренды</a>
+	</div>
+	<div class="dosug">
+		<div class="dosug-elements">
+			<div class="elem1"><a href="#">
+				<img src="png\dosug1.png" class="elem_img">
+				<section class="inside_elem">
+					<section style="gap:10px;">
+						<p class="elem_h">РАЗВЛЕЧЕНИЯ</p>
+						<p class="elem_p">Досуг в ТЦ нельзя представить без ярких впечатлений для всей семьи. Регулярные акции и скидки дополнят эмоции от приятного шопинга родителям, а детей всех возрастов ждут развлечения на любой вкус. Детский развлекательный центр «Balaland» – это целая страна с занимательными аттракционами, множеством игр и веселыми аниматорами. Идеальное место для праздников и развлечений Также в торговом центре «Южная Галерея» проходят мероприятия выходного дня. Следите за новостями на сайте и страницах в социальных сетях.</p>
+					</section>
+					<a href="" class="button6">Подробнее</a>
+				</section>
+			</a></div>
+			<div class="dosug-gorisntpolosa"></div>
+			<div class="elem2"><a href="#">
+				<img src="png\dosug2.png" class="elem_img">
+				<section class="inside_elem">
+					<section style="gap:10px;">
+						<p class="elem_h">КАФЕ И РЕСТОРАНЫ</p>
+						<p class="elem_p">В дополнение к приятному шопингу в ТЦ «Южная Галерея» покупателям всегда рады в уютных кафе и ресторанах. Чашечка кофе с десертом, сытная пицца, изысканная японская кухня, любимые блюда русской кухни порадуют каждого. Вниманию гостей ТЦ «Южная Галерея» блюда и напитки разных гастрономических культур Японская кухня от «Sushi Bistro», молодежный формат от «NYSP», фреши и смузи от «Merry Berry», национальный колорит от ресторанов «Изба» и «Караван», широкий выбор гамбургеров от «Garry's». Приятные эмоции дополнит душевная атмосфера наших заведений!</p>
+					</section>	
+					<a href="" class="button6">Подробнее</a>
+				</section>
+			</a></div>
+		</div>
+	</div>
+	<div class="block-news">
+		<h2>Новости<div class="polosa3"></div></h2>
+		<div class="news">
+		<div class="news1"><a href="#">
+			<img src="png\Frame 382.png" class="img4">
+			<div class="news1_1">
+				<section>
+					<h3>ДАРИМ ТОРТ!</h3>
+					<p class="p1" style="height: 60px;">Самым активным участникам <br>программы Говорим на выгодном! 27 <br>октября, мы наградим вкусным...</p>
+				</section>
+				<a href="" class="button5">Подробнее</a>
+			</div>
+		</a></div>
+		<div class="news2"><a href="#">
+			<img src="png\Frame 383.png" class="img4">
+			<div class="news2_2">
+				<section>
+					<h3>УМНОЖАЕМ БОНУСЫ НА 3</h3>
+					<p class="p1" style="height: 60px;">Только с 11 июля по 31 августа, бонусы <br>за чеки всех кафе ТЦ Южная Галерея <br>х на 3! Зарегистрировать чек можно...</p>
+				</section>
+				<a href="" class="button5">Подробнее</a>
+			</div>
+		</a></div>
+		<div class="news3"><a href="#">
+			<img src="png\Frame 384.png" class="img4">
+			<div class="news3_3">
+				<section>
+				<h3 class="h3_1">ВНИМАНИЕ! ИЗМЕНЕНИЯ В <br>РАБОТЕ АКЦИИ ГОВОРИМ <br>НА ВЫГОДНОМ</h3>
+					<p class="p1" style="height: 20px;">Подробности уже скоро!</p>
+				</section>
+				<a href="" class="button5">Подробнее</a>
+			</div>
+		</a></div>
+		</div>
+		<a href=""class="button3">Все новости</a>
+	</div>
+	<div class="polosa1"></div>
+	<div class="footer3">
+			<section class="nav-footer">
+				<nav class="text1">
+				<a href="">О ТЦ</a>
+				<a href="">НОВОСТИ</a>
+				<a href="">ГАЛЕРЕЯ</a>
+				<a href="">СКИДКИ И АКЦИИ</a>
+				<a href="">БРЕНДЫ</a>
+				<a href="">РЕСТОРАНЫ И КАФЕ</a>
+				<a href="">КАФЕ И РАЗВЛЕЧЕНИЯ</a>
+				<a href="">СОТРУДНИЧЕСТВО</a>
+				</nav>
+				<nav class="text2">
+				<a href="">NEW YORK STREET PIZZA</a>
+				<a href="">LE DAMA DE MODA</a>
+				<a href="">DIVA</a>
+				<a href="">LC WAIKIKI</a>
+				<a href="">МИР КИНО</a>
+				</nav>
+				<nav class="text2">
+				<a href="">KARI</a>
+				<a href="">VALTES</a>
+				<a href="">GRAFITE</a>
+				<a href="">ГИПЕРМАРКЕТ АШАН</a>
+				<a href="">СТАРИК ХИНКАЛЫЧ</a>
+				<a href="">DNS ГИПЕР</a>
+				</nav>
+				<nav class="text2">
+				<a href="">BOLERO</a>
+				<a href="">COLIN'S</a>
+				<a href="">BALALAND</a>
+				<a href="">МАГАЗИН ОБУВИ ZENDEN</a>
+				<a href="">REDZOLOTO</a>
+				<a href="">ЧИТАЙ-ГОРОД</a>
+				</nav>
+				<nav class="text2">
+				<a href="">IN CITY</a>
+				<a href="">ТВОЕ</a>
+				<a href="">LETUAL</a>
+				<a href="">GLORIA JEANS</a>
+				<a href="">ГАРИДЗЕ</a>
+				</nav>
+			</section>
+		</div>
+	<footer сlass="footer-mobile">
+		<div class="footer1-mobile">
+			<section class="group-ficons">
+				<div class="fi1"><img src="svg\email-mobile.svg" class="fi1_1">yg@southgallery.net</div>
+				<div class="fi2"><img src="svg\mobile-mobile.svg" class="fi2_2">+ 7978 938 13 22</div>
+				<button class="button9"><img src="svg\kino-mobile.svg">КИНОТЕАТР</button>
+			</section>
+			<section class="group-ficons">
+				<div class="fi3"><img src="svg\clock-mobile.svg" class="fi3_3">Пн-Вс: 10:00-22:00</div>
+				<div class="fi4"><img src="svg\map-mobile.svg" class="fi4_4"><center>Крым, Симферополь ул. Киевская, 189</center></div>
+				<div class="fivk"><a href="google.com"><img src="svg\vk.svg"></a></div>
+			</section>
+		</div>
+		<div class="footer2-mobile">
+			<p class="fp">© “ТЦ Южная ГАЛЕРЕЯ” 2019 Все права защищены</p>
+		</div>
+	</footer>
+	<footer сlass="footer-pk">
+		<div class="footer1-pk">
+				<div class="fi1"><img src="svg\email-mobile.svg" class="fi1_1">yg@southgallery.net</div>
+				<div class="fi2"><img src="svg\mobile-mobile.svg" class="fi2_2">+ 7978 938 13 22</div>
+				<a class="button9"><img src="svg\kino-mobile.svg">КИНОТЕАТР</a>
+				<div class="fi3"><img src="svg\clock-mobile.svg" class="fi3_3">Пн-Вс: 10:00-22:00</div>
+				<div class="fi4"><img src="svg\map-mobile.svg" class="fi4_4"><center>Крым, Симферополь ул. Киевская, 189</center></div>
+				<div class="fivk"><a href="google.com"><img src="svg\vk.svg"></a></div>
+		</div>
+		<div class="footer2-pk">
+			<p class="fp">© “ТЦ Южная ГАЛЕРЕЯ” 2019 Все права защищены</p><div class="fivk-pk"><a href="google.com"><img src="svg\vk.svg"></a></div>
+		</div>
+	</footer>
+	<script>
+		function myFunction(){
+			document.getElementById("menu-under-list").classList.toggle("show");
+		}
+		window.onclick = function(event){
+			if(!event.target.matches('.drop-button')){
+				var dropdowns = document.getElementByClassName("drop-button-content");
+				var i;
+				for(i = 0; i < dropdowns.length; i++){
+					var openDropdown = dropdowns[i];
+					if(openDropdown.classList.contains('show')){
+						openDropdown.classList.remove('show');
+					}
+				}
+			}
+		}
+		function myFunction2(){
+			document.getElementById("menu-under-list-2").classList.toggle("show-2");
+		}
+		window.onclick = function(event){
+			if(!event.target.matches('.drop-button')){
+				var dropdowns = document.getElementByClassName("drop-button-content-2");
+				var i;
+				for(i = 0; i < dropdowns.length; i++){
+					var openDropdown = dropdowns[i];
+					if(openDropdown.classList.contains('show-2')){
+						openDropdown.classList.remove('show-2');
+					}
+				}
+			}
+		}
+
+		function myFunction3(){
+			document.getElementById("menu-under-list-3").classList.toggle("show-3");
+		}
+		window.onclick = function(event){
+			if(!event.target.matches('.drop-button')){
+				var dropdowns = document.getElementByClassName("drop-button-content-3");
+				var i;
+				for(i = 0; i < dropdowns.length; i++){
+					var openDropdown = dropdowns[i];
+					if(openDropdown.classList.contains('show-3')){
+						openDropdown.classList.remove('show-3');
+					}
+				}
+			}
+		}
+
+		function mainnavfunction(){
+			document.getElementById("nav2").classList.toggle("show-nav");
+		}
+		window.onclick = function(event){
+			if(!event.target.matches('.menu-burger')){
+				var dropdowns = document.getElementByClassName("nav-2");
+				var i;
+				for(i = 0; i < dropdowns.length; i++){
+					var openDropdown = dropdowns[i];
+					if(openDropdown.classList.contains('show-nav')){
+						openDropdown.classList.remove('show-nav');
+					}
+				}
+			}
+		}
+	</script>
+</body>
+</html>
